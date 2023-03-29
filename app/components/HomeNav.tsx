@@ -4,7 +4,7 @@ import Link from "next/link";
 const NavBar = () => {
   return (
     <div className={styles.navContainer}>
-      <Link href="/" className={styles.navLink}>
+      <Link href="/about" className={styles.navLink}>
         <h1>About</h1>
       </Link>
       <Link href="/projects" className={styles.navLink}>

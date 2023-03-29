@@ -1,0 +1,21 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 4rem;
+}
+
+.aboutH1 {
+  font-family: "espiritu-script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.aboutHeader {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+/* @media screen and (min-width: 320px) and (max-width: 425px) {
+  
+} */
