@@ -1,21 +1,20 @@
 import styles from "../styles/NavBar.module.css";
+import Image from "next/image";
 import Link from "next/link";
 
 const NavBar = () => {
   return (
-    <div className={styles.navContainer}>
-      <Link href="/" className={styles.navLink}>
-        <h1>About</h1>
-      </Link>
-      <Link href="/" className={styles.navLink}>
-        <h1>Projects</h1>
-      </Link>
-      <Link href="/" className={styles.navLink}>
-        <h1>Resume</h1>
-      </Link>
-      <Link href="/" className={styles.navLink}>
-        <h1>Contact</h1>
-      </Link>
+    <div className={styles.navBarContainer}>
+      <div className={styles.navLogo}>
+        <Link href="/">
+          <Image
+            src="/exuviaehover.png"
+            height={100}
+            width={100}
+            alt="logo image of an insect shell drawing"
+          />
+        </Link>
+      </div>
     </div>
   );
 };
