@@ -1,19 +1,67 @@
-.homeContainer {
+.aboutContainer {
   display: flex;
   flex-direction: column;
   margin: 2rem 4rem;
 }
 
-.aboutH1 {
-  font-family: "espiritu-script", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+.aboutMe {
+  display: flex;
+  flex-direction: row;
 }
 
 .aboutHeader {
+  flex-wrap: nowrap;
+  width: 30%;
+}
+
+.aboutH1 {
+  font-family: "espiritu-script", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #5886a1;
+  font-size: 2.4rem;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  margin: 1.8rem 2rem;
+  border-top: 1px solid #e3a03b;
+  padding: 20px;
+}
+
+.aboutText {
+  color: lightgray;
+  margin: 10px 10px;
+  font-size: 1.1rem;
+}
+
+.aboutSkills {
   display: flex;
   flex-direction: row;
-  width: 100%;
+}
+
+.skillsText {
+  display: flex;
+  flex-direction: row;
+}
+
+.skillsText h4 {
+  color: lightgray;
+  margin: 10px;
+}
+
+.skillsHeader {
+  width: 30%;
+}
+
+.skillsContent {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  margin: 1.8rem;
+  border-top: 1px solid #e3a03b;
+  padding: 20px;
 }
 
 /* @media screen and (min-width: 320px) and (max-width: 425px) {
