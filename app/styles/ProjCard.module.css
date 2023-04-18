@@ -1,0 +1,35 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+
+  color: lightgray;
+  height: 25rem;
+  width: 20rem;
+}
+
+.cardImg {
+  height: 60%;
+  background-color: rgb(92, 92, 92);
+}
+
+.cardTitle {
+  padding: 1rem 0rem 0rem 1rem;
+  font-family: "espiritu", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #5886a1;
+}
+
+.cardDesc {
+  padding: 1rem 0rem 0rem 1rem;
+}
+
+.cardTags {
+  padding: 1rem 0rem 0rem 1rem;
+}
+
+.cardImg {
+  margin-top: 0.5rem;
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "title": "Portfolio",
+    "description": "My portfolio",
+    "tags": ["fullstack", "originalart", "websitemaint"],
+    "git_url": "",
+    "proj_url": "https://www.exuviae.me",
+    "image": "",
+    "alt": "",
+    "tech": ["NextJS 13", "TypeScript"],
+    "wip": false
+  },
+  {
+    "id": "2",
+    "title": "LendA",
+    "description": "A web app that connects lenders to borrowers in a communities by providing a seamless experience.",
+    "tags": ["frontend"],
+    "git_url": "https://github.com/Co-Lab-You-Belong-in-Tech/LendA",
+    "proj_url": "",
+    "image": "",
+    "alt": "",
+    "tech": ["MERN Stack", "MongoDB", "ReactJS", "Express", "NextJS"],
+    "wip": true
+  },
+  {
+    "id": "3",
+    "title": "BrewBrowser",
+    "description": "An app made with ReactJS and the Brewery API that allows users to browse beers by style, create profiles, and save beers they've tried or would like to try to favorite lists and 'want to try' lists.",
+    "tags": ["fullstack", "originalart"],
+    "git_url": "https://github.com/mllrdnl/brewbrowserv2",
+    "proj_url": "https://brewbrowser.app/",
+    "image": "",
+    "alt": "",
+    "tech": ["ReactJS", "REST APIs", "MongoDB"],
+    "wip": true
+  },
+  {
+    "id": "4",
+    "title": "Pack-Way",
+    "description": "A web app that makes the process of planning trips for hikers and campers more efficient.",
+    "tags": ["frontend"],
+    "git_url": "https://github.com/Co-Lab-You-Belong-in-Tech/Pack-Way",
+    "proj_url": "https://brewbrowser.app/",
+    "image": "",
+    "alt": "",
+    "tech": ["ReactJS", "REST APIs"],
+    "wip": true
+  },
+  {
+    "id": "5",
+    "title": "EmilySimpson.Art",
+    "description": "A portfolio website for an artist locateed in New Orleans, LA.",
+    "tags": ["fullstack", "websitemaint"],
+    "git_url": "https://github.com/mllrdnl/ES-Art",
+    "proj_url": "https://www.emilysimpson.art/",
+    "image": "",
+    "alt": "",
+    "tech": ["ReactJS", "REST APIs"],
+    "wip": false
+  },
+  {
+    "id": "6",
+    "title": "Mal's Moderate Problem Blog",
+    "description": "A blog website about sobriety.",
+    "tags": ["fullstack", "websitemaint"],
+    "git_url": "https://github.com/mllrdnl/ES-Art",
+    "proj_url": "https://www.emilysimpson.art/",
+    "image": "",
+    "alt": "",
+    "tech": ["ReactJS", "REST APIs"],
+    "wip": false
+  }
+]

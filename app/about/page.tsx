@@ -51,19 +51,40 @@ const about = () => {
             <h1 className={styles.aboutH1}>Skills</h1>
           </div>
           <div className={styles.skillsContent}>
+            <div>
+              <svg
+                // id="Layer_1"
+                // data-name="Layer 1"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <line
+                  className={styles.goldLine}
+                  width="1862"
+                  height="4.08"
+                  x1="0"
+                  y1="0"
+                  x2="600"
+                  y2="0"
+                />
+              </svg>
+            </div>
             <div className={styles.skillsText}>
-              <h4>HTML5/CSS</h4>
-              <h4>JAVASCRIPT</h4>
-              <h4>REACT.JS</h4>
-              <h4>PYTHON</h4>
-              <h4>SQL</h4>
-              <h4>Bootstrap</h4>
-              <h4>FlaskSQL</h4>
-              <h4>REST APIS</h4>
-              <h4>GIT</h4>
-              <h4>MONGODB</h4>
-              <h4>REDUX</h4>
-              <h4>AXIOS</h4>
+              <h4 className={styles.skill}>HTML/CSS</h4>
+              <h4 className={styles.skill}>JAVASCRIPT</h4>
+              <h4 className={styles.skill}>REACT.JS</h4>
+              <h4 className={styles.skill}>PYTHON</h4>
+              <h4 className={styles.skill}>SQL</h4>
+              <h4 className={styles.skill}>Bootstrap</h4>
+              <h4 className={styles.skill}>FlaskSQL</h4>
+              <h4 className={styles.skill}>REST APIS</h4>
+              <h4 className={styles.skill}>GIT</h4>
+              <h4 className={styles.skill}>MONGODB</h4>
+              <h4 className={styles.skill}>REDUX</h4>
+              <h4 className={styles.skill}>AXIOS</h4>
+              <h4 className={styles.skill}>WordPress</h4>
+              <h4 className={styles.skill}>NextJS 13</h4>
+              <h4 className={styles.skill}>MERN</h4>
+              <h4 className={styles.skill}>TypeScript</h4>
             </div>
           </div>
         </div>

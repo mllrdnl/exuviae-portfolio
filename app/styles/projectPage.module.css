@@ -1,3 +1,17 @@
+.projBody {
+  background-image: linear-gradient(
+    to right top,
+    #000c20,
+    #0a1628,
+    #111d30,
+    #192538,
+    #212d40
+  );
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
 .categories {
   display: flex;
   flex-direction: row;
@@ -6,22 +20,18 @@
 }
 
 .categories h1 {
-  font-family: "espiritu", sans-serif;
   font-weight: 400;
-  color: #5886a1;
-  text-transform: uppercase;
+
   margin: 0;
 }
 
 .categories h2 {
-  font-family: "espiritu-script", sans-serif;
   font-weight: 400;
   font-style: normal;
-  text-transform: capitalize;
+
   padding: 0;
   margin: 0;
   font-size: 2rem;
-  color: #97a77d;
 }
 
 .projCat {
@@ -32,4 +42,19 @@
 
 .projCatTop {
   position: relative;
+  font-family: "espiritu-script", sans-serif;
+  color: #97a77d;
+}
+
+.projCatBottom {
+  font-family: "espiritu", sans-serif;
+  text-transform: uppercase;
+  color: #5886a1;
+}
+
+.projCardContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  margin: 0rem 2rem;
 }
