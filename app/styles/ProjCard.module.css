@@ -34,8 +34,19 @@
 
 .cardTags {
   padding: 1rem 0rem 0rem 1rem;
+  display: flex;
+  flex-direction: row;
 }
 
 .cardImg {
   margin-top: 0.5rem;
+}
+
+.techlist {
+  display: flex;
+  flex-direction: row;
+}
+
+.techli {
+  list-style: none;
 }

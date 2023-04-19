@@ -8,9 +8,9 @@
     "proj_url": "https://www.exuviae.me",
     "image": "/exuviaehover.png",
     "alt": "A drawing of a cicada exuviae glowing in green",
-    "tech": ["NextJS 13", "TypeScript"],
+    "tech": ["NextJS 13", "TypeScript", "Fresco"],
     "wip": false,
-    "info": "I created this portfolio website using NextJS and TypeScript.  I drew the cicada insect in Adobe Fresco.  The color scheme was inspired by Ani DiFranco's album, Evolve, which has been hugely influential in my life."
+    "info": "I created this portfolio website using NextJS 13 and TypeScript.  I drew the cicada insect's exuviae in Adobe Fresco.  The color scheme was inspired by Ani DiFranco's album, Evolve, which has been hugely influential in my life."
   },
   {
     "id": "2",
@@ -21,7 +21,7 @@
     "proj_url": "https://www.canva.com/design/DAFGykucu-4/ulRhkfghTWJWS7tkHNeyig/view?utm_content=DAFGykucu-4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
     "image": "/lendaimg.png",
     "alt": "A screenshot of a website titled LendA, showing a search bar and outlines of various tools available to borrow.",
-    "tech": ["MERN Stack", "MongoDB", "ReactJS", "Express", "NextJS"],
+    "tech": ["MongoDB", "ReactJS", "Express", "NextJS"],
     "wip": true,
     "info": "Lenda was created in a program called CoLab.  I was the Front End Developer - my team used the MERN Stack for our tech."
   },
@@ -34,7 +34,7 @@
     "proj_url": "https://brewbrowser.app/",
     "image": "/brewbrowserimg.png",
     "alt": "A screenshot of a website titled Brew Broswer with a sketched beer fridge",
-    "tech": ["ReactJS", "REST APIs", "MongoDB"],
+    "tech": ["ReactJS", "REST APIs", "MongoDB", "Fresco"],
     "wip": true,
     "info": "BrewBrowser is a work in progress!  I drew the beer fridge and beer glass logo in Adobe Fresco and used CSS for the beer can animation."
   },
@@ -87,6 +87,19 @@
     "alt": "A screenshot of the Mindful Child Wellness website showing a young girl and a woman doing poses in ariel yoga hammocks",
     "tech": ["WordPress", "Canva", "Adobe Illustrator"],
     "wip": false,
+    "info": "The Mindful Child Wellness website was created by Social: Managed using WordPress.  I create and update images and content when needed."
+  },
+  {
+    "id": "8",
+    "title": "Foodle",
+    "description": "A web app that allows the user to search over 2.3 million recipes (using the Edamam API) and select meals they can make at home, using the ingredients they have in their pantry.",
+    "tags": ["fullstack"],
+    "git_url": "https://github.com/FoodleCO/foodle",
+    "proj_url": "https://food-le.herokuapp.com/",
+    "image": "/foodlescreenshot.png",
+    "alt": "screenshot of foodle app with colorful vegetables and a recipe",
+    "tech": ["ReactJS", "Python", "FlaskSQL", "Bootstrap"],
+    "wip": true,
     "info": "The Mindful Child Wellness website was created by Social: Managed using WordPress.  I create and update images and content when needed."
   }
 ]

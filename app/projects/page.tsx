@@ -38,6 +38,7 @@ const projects = () => {
                 img={`/images${proj.image}`}
                 desc={proj.description}
                 tags={proj.tags}
+                tech={proj.tech}
                 alt={proj.alt}
               />
             </div>

@@ -7,9 +7,10 @@ type Props = {
   desc: string;
   tags: string[];
   alt: string;
+  tech: string[];
 };
 
-const ProjCard = ({ title, img, desc, tags, alt }: Props) => {
+const ProjCard = ({ title, img, desc, tags, alt, tech }: Props) => {
   return (
     <div className={styles.cardContainer}>
       <div className={styles.cardTitle}>
@@ -19,7 +20,15 @@ const ProjCard = ({ title, img, desc, tags, alt }: Props) => {
         <Image src={img} alt={alt} fill className={styles.img} />
       </div>
       <div className={styles.cardDesc}>{desc}</div>
-      <div className={styles.cardTags}>{tags}</div>
+      <div className={styles.cardTags}>
+        <ul className={styles.techlist}>
+          {tech.map((each, i) => (
+            <li key={i} className={styles.techli}>
+              {each}
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };
