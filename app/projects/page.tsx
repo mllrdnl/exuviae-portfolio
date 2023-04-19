@@ -1,6 +1,7 @@
 import NavBar from "../components/NavBar";
 import styles from "../styles/projectPage.module.css";
 import ProjCard from "../components/ProjCard";
+import projData from "../../data.json";
 
 const projects = () => {
   return (
@@ -30,9 +31,17 @@ const projects = () => {
           </div>
         </div>
         <div className={styles.projCardContainer}>
-          <div className={styles.projectCard}>
-            <ProjCard />
-          </div>
+          {projData.map((proj) => (
+            <div key={proj.id} className={styles.projectCard}>
+              <ProjCard
+                title={proj.title}
+                img={`/images${proj.image}`}
+                desc={proj.description}
+                tags={proj.tags}
+                alt={proj.alt}
+              />
+            </div>
+          ))}
         </div>
       </div>
     </div>

@@ -1,18 +1,25 @@
 import styles from "../styles/ProjCard.module.css";
+import Image from "next/image";
 
 type Props = {
-  projects: Project[];
+  title: string;
+  img: string;
+  desc: string;
+  tags: string[];
+  alt: string;
 };
 
-const ProjCard = ({ projects }: Props) => {
+const ProjCard = ({ title, img, desc, tags, alt }: Props) => {
   return (
     <div className={styles.cardContainer}>
       <div className={styles.cardTitle}>
-        <h4>Project 1</h4>
+        <h4>{title}</h4>
       </div>
-      <div className={styles.cardImg}>Project Image</div>
-      <div className={styles.cardDesc}>Description</div>
-      <div className={styles.cardTags}>#FullStack #OriginalArt</div>
+      <div className={styles.cardImg}>
+        <Image src={img} alt={alt} fill className={styles.img} />
+      </div>
+      <div className={styles.cardDesc}>{desc}</div>
+      <div className={styles.cardTags}>{tags}</div>
     </div>
   );
 };

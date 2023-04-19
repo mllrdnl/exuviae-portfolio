@@ -4,12 +4,13 @@
     "title": "Portfolio",
     "description": "My portfolio",
     "tags": ["fullstack", "originalart", "websitemaint"],
-    "git_url": "",
+    "git_url": "https://github.com/mllrdnl/exuviae-portfolio",
     "proj_url": "https://www.exuviae.me",
-    "image": "",
-    "alt": "",
+    "image": "/exuviaehover.png",
+    "alt": "A drawing of a cicada exuviae glowing in green",
     "tech": ["NextJS 13", "TypeScript"],
-    "wip": false
+    "wip": false,
+    "info": "I created this portfolio website using NextJS and TypeScript.  I drew the cicada insect in Adobe Fresco.  The color scheme was inspired by Ani DiFranco's album, Evolve, which has been hugely influential in my life."
   },
   {
     "id": "2",
@@ -17,11 +18,12 @@
     "description": "A web app that connects lenders to borrowers in a communities by providing a seamless experience.",
     "tags": ["frontend"],
     "git_url": "https://github.com/Co-Lab-You-Belong-in-Tech/LendA",
-    "proj_url": "",
-    "image": "",
-    "alt": "",
+    "proj_url": "https://www.canva.com/design/DAFGykucu-4/ulRhkfghTWJWS7tkHNeyig/view?utm_content=DAFGykucu-4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
+    "image": "/lendaimg.png",
+    "alt": "A screenshot of a website titled LendA, showing a search bar and outlines of various tools available to borrow.",
     "tech": ["MERN Stack", "MongoDB", "ReactJS", "Express", "NextJS"],
-    "wip": true
+    "wip": true,
+    "info": "Lenda was created in a program called CoLab.  I was the Front End Developer - my team used the MERN Stack for our tech."
   },
   {
     "id": "3",
@@ -30,10 +32,11 @@
     "tags": ["fullstack", "originalart"],
     "git_url": "https://github.com/mllrdnl/brewbrowserv2",
     "proj_url": "https://brewbrowser.app/",
-    "image": "",
-    "alt": "",
+    "image": "/brewbrowserimg.png",
+    "alt": "A screenshot of a website titled Brew Broswer with a sketched beer fridge",
     "tech": ["ReactJS", "REST APIs", "MongoDB"],
-    "wip": true
+    "wip": true,
+    "info": "BrewBrowser is a work in progress!  I drew the beer fridge and beer glass logo in Adobe Fresco and used CSS for the beer can animation."
   },
   {
     "id": "4",
@@ -42,10 +45,11 @@
     "tags": ["frontend"],
     "git_url": "https://github.com/Co-Lab-You-Belong-in-Tech/Pack-Way",
     "proj_url": "https://brewbrowser.app/",
-    "image": "",
-    "alt": "",
+    "image": "/packwayimg.png",
+    "alt": "A screenshot of a website called Packway, showing a cartoon person hiking with a walking stick.",
     "tech": ["ReactJS", "REST APIs"],
-    "wip": true
+    "wip": true,
+    "info": "Pack-way was created in a program called CoLab.  I was the Front End Developer on the team and I worked mainly with ReactJS.  We used a MERN Stack for this project's tech."
   },
   {
     "id": "5",
@@ -54,21 +58,35 @@
     "tags": ["fullstack", "websitemaint"],
     "git_url": "https://github.com/mllrdnl/ES-Art",
     "proj_url": "https://www.emilysimpson.art/",
-    "image": "",
-    "alt": "",
+    "image": "/esartimg.png",
+    "alt": "A screenshot of a website called Emily Simpson Art with marine plants at the bottom and bubbles throughout",
     "tech": ["ReactJS", "REST APIs"],
-    "wip": false
+    "wip": false,
+    "info": "Emily Simpson is an artist located in New Orleans, LA, whom I've worked with since 2019.  I created this portfolio website using ReactJS to showcase her head pieces."
   },
   {
     "id": "6",
     "title": "Mal's Moderate Problem Blog",
     "description": "A blog website about sobriety.",
     "tags": ["fullstack", "websitemaint"],
-    "git_url": "https://github.com/mllrdnl/ES-Art",
-    "proj_url": "https://www.emilysimpson.art/",
-    "image": "",
-    "alt": "",
-    "tech": ["ReactJS", "REST APIs"],
-    "wip": false
+    "git_url": "https://github.com/mllrdnl/malsmpblog",
+    "proj_url": "https://malsmpblog-ecagt2iwi-mllrdnl.vercel.app/",
+    "image": "/malsmpblogimg.png",
+    "alt": "A screenshot of a website called Mals Moderate Problem that shows the title of the website and several links to blog posts",
+    "tech": ["NextJS 13", "Sanity.io", "TypeScript", "Vercel"],
+    "wip": true,
+    "info": "I created this blog for two reasons -- a place to write about my journey with and without alcohol, and an opportunity to learn a CMS (in this case, Sanity)."
+  },
+  {
+    "id": "7",
+    "title": "Mindful Child Wellness",
+    "description": "A website for an organization in Kansas City that teaches children mindfulness through breathing exercises and ariel yoga.",
+    "tags": ["websitemaint"],
+    "proj_url": "https://www.mindfulchildaerialyoga.com/",
+    "image": "/mcwimg.png",
+    "alt": "A screenshot of the Mindful Child Wellness website showing a young girl and a woman doing poses in ariel yoga hammocks",
+    "tech": ["WordPress", "Canva", "Adobe Illustrator"],
+    "wip": false,
+    "info": "The Mindful Child Wellness website was created by Social: Managed using WordPress.  I create and update images and content when needed."
   }
 ]

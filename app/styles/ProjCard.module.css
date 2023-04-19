@@ -11,7 +11,13 @@
 
 .cardImg {
   height: 60%;
-  background-color: rgb(92, 92, 92);
+  /* background-color: rgb(92, 92, 92); */
+  position: relative;
+}
+
+.img {
+  position: relative;
+  object-fit: contain;
 }
 
 .cardTitle {

@@ -9,4 +9,5 @@ type Project = {
   alt: string;
   tech: string[];
   wip: boolean;
+  info: string;
 };
