@@ -18,62 +18,6 @@
     "info": "I created this portfolio website using NextJS 13 and TypeScript.  I drew the cicada insect's exuviae in Adobe Fresco.  The color scheme was inspired by Ani DiFranco's album, Evolve, which has been hugely influential in my life."
   },
   {
-    "id": "2",
-    "title": "LendA",
-    "slug": "LendA",
-    "description": "A web app that connects lenders to borrowers in a communities by providing a seamless experience.",
-    "tags": ["frontend"],
-    "git_url": "https://github.com/Co-Lab-You-Belong-in-Tech/LendA",
-    "proj_url": "https://www.canva.com/design/DAFGykucu-4/ulRhkfghTWJWS7tkHNeyig/view?utm_content=DAFGykucu-4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
-    "image": "/lendaimg.png",
-    "alt": "A screenshot of a website titled LendA, showing a search bar and outlines of various tools available to borrow.",
-    "tech": [
-      { "name": "MongoDB", "logo_url": "/mongodbicon.png" },
-      { "name": "ReactJS", "logo_url": "/reacticon.png" },
-      { "name": "Express", "logo_url": "/express.png" },
-      { "name": "NextJS", "logo_url": "/nexticon.png" },
-      { "name": "Redux", "logo_url": "/reduxicon.png" }
-    ],
-    "wip": true,
-    "info": "Lenda was created in a program called CoLab.  I was the Front End Developer - my team used the MERN Stack for our tech."
-  },
-  {
-    "id": "3",
-    "title": "BrewBrowser",
-    "slug": "BrewBrowser",
-    "description": "An app made with ReactJS and the Brewery API that allows users to browse beers by style, create profiles, and save beers they've tried or would like to try to favorite lists and 'want to try' lists.",
-    "tags": ["fullstack", "originalart"],
-    "git_url": "https://github.com/mllrdnl/brewbrowserv2",
-    "proj_url": "https://brewbrowser.app/",
-    "image": "/brewbrowserimg.png",
-    "alt": "A screenshot of a website titled Brew Broswer with a sketched beer fridge",
-    "tech": [
-      { "name": "ReactJS", "logo_url": "/reacticon.png" },
-      { "name": "REST APIs", "logo_url": "/apiicon.png" },
-      { "name": "MongoDB", "logo_url": "/mongodbicon.png" },
-      { "name": "Fresco", "logo_url": "/adobefrescoicon.png" }
-    ],
-    "wip": true,
-    "info": "BrewBrowser is a work in progress!  I drew the beer fridge and beer glass logo in Adobe Fresco and used CSS for the beer can animation."
-  },
-  {
-    "id": "4",
-    "title": "Pack-Way",
-    "slug": "PackWay",
-    "description": "A web app that makes the process of planning trips for hikers and campers more efficient.",
-    "tags": ["frontend"],
-    "git_url": "https://github.com/Co-Lab-You-Belong-in-Tech/Pack-Way",
-    "proj_url": "https://brewbrowser.app/",
-    "image": "/packwayimg.png",
-    "alt": "A screenshot of a website called Packway, showing a cartoon person hiking with a walking stick.",
-    "tech": [
-      { "name": "ReactJS", "logo_url": "/reacticon.png" },
-      { "name": "REST APIs", "logo_url": "/apiicon.png" }
-    ],
-    "wip": true,
-    "info": "Pack-way was created in a program called CoLab.  I was the Front End Developer on the team and I worked mainly with ReactJS.  We used a MERN Stack for this project's tech."
-  },
-  {
     "id": "5",
     "title": "EmilySimpson.Art",
     "slug": "EmilySimpsonArt",
@@ -110,6 +54,26 @@
     "info": "I created this blog for two reasons -- a place to write about my journey with and without alcohol, and an opportunity to learn a CMS (in this case, Sanity)."
   },
   {
+    "id": "2",
+    "title": "LendA",
+    "slug": "LendA",
+    "description": "A web app that connects lenders to borrowers in a communities by providing a seamless experience.",
+    "tags": ["frontend"],
+    "git_url": "https://github.com/Co-Lab-You-Belong-in-Tech/LendA",
+    "proj_url": "https://www.canva.com/design/DAFGykucu-4/ulRhkfghTWJWS7tkHNeyig/view?utm_content=DAFGykucu-4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
+    "image": "/lendaimg.png",
+    "alt": "A screenshot of a website titled LendA, showing a search bar and outlines of various tools available to borrow.",
+    "tech": [
+      { "name": "MongoDB", "logo_url": "/mongodbicon.png" },
+      { "name": "ReactJS", "logo_url": "/reacticon.png" },
+      { "name": "Express", "logo_url": "/express.png" },
+      { "name": "NextJS", "logo_url": "/nexticon.png" },
+      { "name": "Redux", "logo_url": "/reduxicon.png" }
+    ],
+    "wip": true,
+    "info": "Lenda was created in a program called CoLab.  I was the Front End Developer - my team used the MERN Stack for our tech."
+  },
+  {
     "id": "7",
     "title": "Mindful Child Wellness",
     "slug": "mcw",
@@ -144,5 +108,41 @@
     ],
     "wip": true,
     "info": "The Mindful Child Wellness website was created by Social: Managed using WordPress.  I create and update images and content when needed."
+  },
+  {
+    "id": "3",
+    "title": "BrewBrowser",
+    "slug": "BrewBrowser",
+    "description": "An app made with ReactJS and the Brewery API that allows users to browse beers by style, create profiles, and save beers they've tried or would like to try to favorite lists and 'want to try' lists.",
+    "tags": ["fullstack", "originalart"],
+    "git_url": "https://github.com/mllrdnl/brewbrowserv2",
+    "proj_url": "https://brewbrowser.app/",
+    "image": "/brewbrowserimg.png",
+    "alt": "A screenshot of a website titled Brew Broswer with a sketched beer fridge",
+    "tech": [
+      { "name": "ReactJS", "logo_url": "/reacticon.png" },
+      { "name": "REST APIs", "logo_url": "/apiicon.png" },
+      { "name": "MongoDB", "logo_url": "/mongodbicon.png" },
+      { "name": "Fresco", "logo_url": "/adobefrescoicon.png" }
+    ],
+    "wip": true,
+    "info": "BrewBrowser is a work in progress!  I drew the beer fridge and beer glass logo in Adobe Fresco and used CSS for the beer can animation."
+  },
+  {
+    "id": "4",
+    "title": "Pack-Way",
+    "slug": "PackWay",
+    "description": "A web app that makes the process of planning trips for hikers and campers more efficient.",
+    "tags": ["frontend"],
+    "git_url": "https://github.com/Co-Lab-You-Belong-in-Tech/Pack-Way",
+    "proj_url": "https://brewbrowser.app/",
+    "image": "/packwayimg.png",
+    "alt": "A screenshot of a website called Packway, showing a cartoon person hiking with a walking stick.",
+    "tech": [
+      { "name": "ReactJS", "logo_url": "/reacticon.png" },
+      { "name": "REST APIs", "logo_url": "/apiicon.png" }
+    ],
+    "wip": true,
+    "info": "Pack-way was created in a program called CoLab.  I was the Front End Developer on the team and I worked mainly with ReactJS.  We used a MERN Stack for this project's tech."
   }
 ]
