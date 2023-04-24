@@ -10,9 +10,9 @@
     "image": "/exuviaehover.png",
     "alt": "A drawing of a cicada exuviae glowing in green",
     "tech": [
-      { "name": "NextJS 13", "logo_url": "/nextjs13.png" },
-      { "name": "TypeScript", "logo_url": "/ts-logo-256.png" },
-      { "name": "Fresco", "logo_url": "/Adobe_Fresco.png" }
+      { "name": "NextJS 13", "logo_url": "/nexticon.png" },
+      { "name": "TypeScript", "logo_url": "/typescripticon.png" },
+      { "name": "Fresco", "logo_url": "/adobefrescoicon.png" }
     ],
     "wip": false,
     "info": "I created this portfolio website using NextJS 13 and TypeScript.  I drew the cicada insect's exuviae in Adobe Fresco.  The color scheme was inspired by Ani DiFranco's album, Evolve, which has been hugely influential in my life."
@@ -28,11 +28,11 @@
     "image": "/lendaimg.png",
     "alt": "A screenshot of a website titled LendA, showing a search bar and outlines of various tools available to borrow.",
     "tech": [
-      { "name": "MongoDB", "logo_url": "/mongodb.png" },
-      { "name": "ReactJS", "logo_url": "/reactlogo.png" },
+      { "name": "MongoDB", "logo_url": "/mongodbicon.png" },
+      { "name": "ReactJS", "logo_url": "/reacticon.png" },
       { "name": "Express", "logo_url": "/express.png" },
-      { "name": "NextJS", "logo_url": "/nextwhite.png" },
-      { "name": "Redux", "logo_url": "/redux.png" }
+      { "name": "NextJS", "logo_url": "/nexticon.png" },
+      { "name": "Redux", "logo_url": "/reduxicon.png" }
     ],
     "wip": true,
     "info": "Lenda was created in a program called CoLab.  I was the Front End Developer - my team used the MERN Stack for our tech."
@@ -48,10 +48,10 @@
     "image": "/brewbrowserimg.png",
     "alt": "A screenshot of a website titled Brew Broswer with a sketched beer fridge",
     "tech": [
-      { "name": "ReactJS", "logo_url": "/reactlogo.png" },
-      { "name": "REST APIs", "logo_url": "/restAPI.png" },
-      { "name": "MongoDB", "logo_url": "/mongodb.png" },
-      { "name": "Fresco", "logo_url": "/Adobe_Fresco.png" }
+      { "name": "ReactJS", "logo_url": "/reacticon.png" },
+      { "name": "REST APIs", "logo_url": "/apiicon.png" },
+      { "name": "MongoDB", "logo_url": "/mongodbicon.png" },
+      { "name": "Fresco", "logo_url": "/adobefrescoicon.png" }
     ],
     "wip": true,
     "info": "BrewBrowser is a work in progress!  I drew the beer fridge and beer glass logo in Adobe Fresco and used CSS for the beer can animation."
@@ -67,8 +67,8 @@
     "image": "/packwayimg.png",
     "alt": "A screenshot of a website called Packway, showing a cartoon person hiking with a walking stick.",
     "tech": [
-      { "name": "ReactJS", "logo_url": "/reactlogo.png" },
-      { "name": "REST APIs", "logo_url": "/restAPI.png" }
+      { "name": "ReactJS", "logo_url": "/reacticon.png" },
+      { "name": "REST APIs", "logo_url": "/apiicon.png" }
     ],
     "wip": true,
     "info": "Pack-way was created in a program called CoLab.  I was the Front End Developer on the team and I worked mainly with ReactJS.  We used a MERN Stack for this project's tech."
@@ -84,8 +84,8 @@
     "image": "/esartimg.png",
     "alt": "A screenshot of a website called Emily Simpson Art with marine plants at the bottom and bubbles throughout",
     "tech": [
-      { "name": "ReactJS", "logo_url": "/reactlogo.png" },
-      { "name": "REST APIs", "logo_url": "/restAPI.png" }
+      { "name": "ReactJS", "logo_url": "/reacticon.png" },
+      { "name": "REST APIs", "logo_url": "/apiicon.png" }
     ],
     "wip": false,
     "info": "Emily Simpson is an artist located in New Orleans, LA, whom I've worked with since 2019.  I created this portfolio website using ReactJS to showcase her head pieces."
@@ -101,10 +101,10 @@
     "image": "/malsmpblogimg.png",
     "alt": "A screenshot of a website called Mals Moderate Problem that shows the title of the website and several links to blog posts",
     "tech": [
-      { "name": "NextJS 13", "logo_url": "/nextjs13.png" },
+      { "name": "NextJS 13", "logo_url": "/nexticon.png" },
       { "name": "Sanity.io", "logo_url": "/sanity.png" },
-      { "name": "TypeScript", "logo_url": "/ts-logo-256.png" },
-      { "name": "Vercel", "logo_url": "/vercel.png" }
+      { "name": "TypeScript", "logo_url": "/typescripticon.png" },
+      { "name": "Vercel", "logo_url": "/vercelicon.png" }
     ],
     "wip": true,
     "info": "I created this blog for two reasons -- a place to write about my journey with and without alcohol, and an opportunity to learn a CMS (in this case, Sanity)."
@@ -119,9 +119,9 @@
     "image": "/mcwimg.png",
     "alt": "A screenshot of the Mindful Child Wellness website showing a young girl and a woman doing poses in ariel yoga hammocks",
     "tech": [
-      { "name": "WordPress", "logo_url": "/WordPresswhite.png" },
-      { "name": "Canva", "logo_url": "/canvalogocircle.png" },
-      { "name": "Adobe Illustrator", "logo_url": "/Adobe_Illustrator.png" }
+      { "name": "WordPress", "logo_url": "/wordpressicon.png" },
+      { "name": "Canva", "logo_url": "/canvaicon.png" },
+      { "name": "Adobe Illustrator", "logo_url": "/adobeillustratoricon.png" }
     ],
     "wip": false,
     "info": "The Mindful Child Wellness website was created by Social: Managed using WordPress.  I create and update images and content when needed."
@@ -137,10 +137,10 @@
     "image": "/foodlescreenshot.png",
     "alt": "screenshot of foodle app with colorful vegetables and a recipe",
     "tech": [
-      { "name": "ReactJS", "logo_url": "/reactlogo.png" },
-      { "name": "Python", "logo_url": "/python.png" },
-      { "name": "FlaskSQL", "logo_url": "/flask.png" },
-      { "name": "Bootstrap", "logo_url": "/bootstrap.png" }
+      { "name": "ReactJS", "logo_url": "/reacticon.png" },
+      { "name": "Python", "logo_url": "/pythonicon.png" },
+      { "name": "FlaskSQL", "logo_url": "/flaskicon.png" },
+      { "name": "Bootstrap", "logo_url": "/bootstrapicon.png" }
     ],
     "wip": true,
     "info": "The Mindful Child Wellness website was created by Social: Managed using WordPress.  I create and update images and content when needed."

@@ -2,7 +2,6 @@ import projects from "../../../data.json";
 import NavBar from "@/app/components/NavBar";
 import styles from "../../styles/AboutProject.module.css";
 import Image from "next/image";
-import Link from "next/link";
 import { HiExternalLink } from "react-icons/hi";
 import { BsGithub } from "react-icons/bs";
 
@@ -24,11 +23,14 @@ export default function Project({ params: { slug } }: Props) {
         {selectedProject.map((projDetails) => (
           <div className={styles.detailsBody}>
             <div className={styles.projTitle}>
-              <h1>Project:</h1>
-              <h2>{projDetails.title}</h2>
-              {projDetails.wip === true ? (
-                <h3 className={styles.wip}>(Work in Progress)</h3>
-              ) : null}
+              <div className={styles.titles}>
+                <h1>Project:</h1>
+
+                <h2>{projDetails.title}</h2>
+                {projDetails.wip === true ? (
+                  <h3 className={styles.wip}>(Work in Progress)</h3>
+                ) : null}
+              </div>
             </div>
             <div className={styles.projDetails}>
               <div className={styles.projPic}>
@@ -40,7 +42,7 @@ export default function Project({ params: { slug } }: Props) {
                 />
               </div>
               <div className={styles.projInfo}>
-                <div className={styles.projSection}>
+                <div>
                   <h3>Description:</h3>
                   <p className={styles.infoP}>{projDetails.description}</p>
                 </div>

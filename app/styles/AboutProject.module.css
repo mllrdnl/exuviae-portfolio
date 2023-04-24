@@ -1,7 +1,12 @@
 .projectBody {
   display: flex;
   flex-direction: column;
-  padding: 2rem 6rem;
+  /* padding: 2rem 6rem; */
+}
+
+.projDetails {
+  margin: 0 auto;
+  padding: 0;
 }
 
 .detailsBody {
@@ -9,10 +14,19 @@
   flex-direction: column;
 }
 
+.titles {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-top: 1rem;
+}
+
 .projTitle {
   display: flex;
   flex-direction: row;
   align-items: baseline;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .projTitle h1 {
@@ -44,7 +58,7 @@
   position: relative;
   width: 40%;
   height: 400px;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .projImg {
@@ -79,7 +93,7 @@
 
 .projInfo {
   width: 55%;
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-left: 2rem;
 }
 
@@ -100,7 +114,7 @@
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 
 .buttons a {
@@ -122,6 +136,7 @@
   text-transform: uppercase;
   color: #5886a1;
   background-color: #000c20;
+  margin-left: 1.5rem;
 }
 
 .projLink p {
@@ -143,6 +158,7 @@
   text-transform: uppercase;
   color: #5886a1;
   background-color: #000c20;
+  margin-right: 1.5rem;
 }
 
 .gitLink p {
@@ -150,9 +166,29 @@
   color: #5886a1;
 }
 
-@media screen and (min-width: 320px) and (max-width: 425px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .titles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
   .projDetails {
     display: flex;
     flex-direction: column;
+  }
+
+  .projPic {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .projImg {
+    object-fit: cover;
+  }
+
+  .projInfo {
+    width: 100%;
+    margin: 0;
   }
 }
