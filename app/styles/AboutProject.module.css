@@ -1,0 +1,158 @@
+.projectBody {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 6rem;
+}
+
+.detailsBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.projTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.projTitle h1 {
+  font-family: "espiritu-script", sans-serif;
+  color: #97a77d;
+  font-size: 3rem;
+}
+
+.projTitle h2 {
+  margin-left: 1rem;
+  font-family: "espiritu", sans-serif;
+  font-size: 3rem;
+  color: #5886a1;
+}
+
+.wip {
+  margin-left: 1rem;
+  color: #5886a1;
+  font-style: italic;
+}
+
+.projDetails {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+}
+
+.projPic {
+  position: relative;
+  width: 40%;
+  height: 400px;
+  margin-top: 2rem;
+}
+
+.projImg {
+  object-fit: contain;
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.techInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.techImg {
+  position: relative;
+  width: 5rem;
+  height: 3rem;
+}
+
+.techInfo p {
+  margin-left: 1rem;
+}
+
+.techLogoImg {
+  position: relative;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.projInfo {
+  width: 55%;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.projInfo h3 {
+  font-family: "espiritu-script", sans-serif;
+  color: #97a77d;
+  font-size: 2.2rem;
+}
+
+.infoP {
+  color: lightgray;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: #5886a1;
+}
+
+.projLink {
+  border: none;
+  border-radius: 5px;
+  width: 10rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: "espiritu", sans-serif;
+  text-transform: uppercase;
+  color: #5886a1;
+  background-color: #000c20;
+}
+
+.projLink p {
+  align-self: center;
+  margin-left: 0.5rem;
+  color: #5886a1;
+}
+
+.gitLink {
+  border: none;
+  border-radius: 5px;
+  width: 10rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "espiritu", sans-serif;
+  text-transform: uppercase;
+  color: #5886a1;
+  background-color: #000c20;
+}
+
+.gitLink p {
+  margin-left: 0.5rem;
+  color: #5886a1;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .projDetails {
+    display: flex;
+    flex-direction: column;
+  }
+}

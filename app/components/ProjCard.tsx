@@ -1,5 +1,11 @@
 import styles from "../styles/ProjCard.module.css";
 import Image from "next/image";
+import Link from "next/link";
+
+type TechProps = {
+  name: string;
+  logo_url: string;
+};
 
 type Props = {
   title: string;
@@ -7,14 +13,17 @@ type Props = {
   desc: string;
   tags: string[];
   alt: string;
-  tech: string[];
+  tech: TechProps[];
+  slug: string;
 };
 
-const ProjCard = ({ title, img, desc, tags, alt, tech }: Props) => {
+function ProjCard({ title, img, desc, tags, tech, alt, slug }: Props) {
   return (
     <div className={styles.cardContainer}>
       <div className={styles.cardTitle}>
-        <h4>{title}</h4>
+        <Link href={`/projects/${slug}`}>
+          <h4>{title}</h4>
+        </Link>
       </div>
       <div className={styles.cardImg}>
         <Image src={img} alt={alt} fill className={styles.img} />
@@ -23,14 +32,19 @@ const ProjCard = ({ title, img, desc, tags, alt, tech }: Props) => {
       <div className={styles.cardTags}>
         <ul className={styles.techlist}>
           {tech.map((each, i) => (
-            <li key={i} className={styles.techli}>
-              {each}
+            <li className={styles.techli} key={i}>
+              <Image
+                src={`/images${each.logo_url}`}
+                alt="alt text"
+                fill
+                className={styles.techLogoImg}
+              />
             </li>
           ))}
         </ul>
       </div>
     </div>
   );
-};
+}
 
 export default ProjCard;
