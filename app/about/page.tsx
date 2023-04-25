@@ -9,6 +9,19 @@ const about = () => {
         <div className={styles.aboutMe}>
           <div className={styles.aboutHeader}>
             <h1 className={styles.aboutH1}>About Me</h1>
+            <div className={styles.svgLine}>
+              <svg height="5" width="100%" xmlns="http://www.w3.org/2000/svg">
+                <line
+                  className={styles.goldLine}
+                  width="1862"
+                  height="4.08"
+                  x1="0"
+                  y1="0"
+                  x2="100%"
+                  y2="0"
+                />
+              </svg>
+            </div>
           </div>
           <div className={styles.aboutContent}>
             <p className={styles.aboutText}>
@@ -49,25 +62,21 @@ const about = () => {
         <div className={styles.aboutSkills}>
           <div className={styles.skillsHeader}>
             <h1 className={styles.aboutH1}>Skills</h1>
-          </div>
-          <div className={styles.skillsContent}>
-            <div>
-              <svg
-                // id="Layer_1"
-                // data-name="Layer 1"
-                xmlns="http://www.w3.org/2000/svg"
-              >
+            <div className={styles.svgLine}>
+              <svg height="5" width="100%" xmlns="http://www.w3.org/2000/svg">
                 <line
                   className={styles.goldLine}
                   width="1862"
                   height="4.08"
                   x1="0"
                   y1="0"
-                  x2="600"
+                  x2="100%"
                   y2="0"
                 />
               </svg>
             </div>
+          </div>
+          <div className={styles.skillsContent}>
             <div className={styles.skillsText}>
               <h4 className={styles.skill}>HTML/CSS</h4>
               <h4 className={styles.skill}>JAVASCRIPT</h4>
@@ -88,7 +97,15 @@ const about = () => {
             </div>
           </div>
         </div>
-        <h1>Resume</h1>
+        <div className={styles.resumeDiv}>
+          <a
+            href="/M.Daniel.Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h1 className={styles.resumeH1}>Resume</h1>
+          </a>
+        </div>
       </div>
     </div>
   );

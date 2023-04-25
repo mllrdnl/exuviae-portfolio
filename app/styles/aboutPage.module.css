@@ -1,17 +1,18 @@
 .aboutContainer {
   display: flex;
   flex-direction: column;
-  margin: 2rem 4rem;
+  margin: 2rem 6rem;
 }
 
 .aboutMe {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .aboutHeader {
-  flex-wrap: nowrap;
-  width: 30%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 .aboutH1 {
@@ -21,65 +22,39 @@
   color: #5886a1;
   font-size: 2.4rem;
   margin: 0;
-  padding: 0;
+  padding: 0rem 0.5rem;
+  flex-grow: 1;
 }
 
 .aboutContent {
   display: flex;
   flex-direction: column;
-  margin: 1.8rem 2rem;
-  border-top: 1px solid #e3a03b;
-  padding: 20px;
+  margin: 0rem 2rem;
 }
 
 .aboutText {
   color: lightgray;
-  margin: 10px 10px;
+  margin-left: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
   font-size: 1.1rem;
 }
 
-/* .aboutSkills {
-  display: flex;
-  flex-direction: row;
-}
-
-.skillsText {
-  display: flex;
-  flex-direction: row;
-}
-
-.skillsText h4 {
-  color: lightgray;
-  margin: 10px;
-}
-
 .skillsHeader {
-  width: 30%;
-}
-
-.skillsContent {
   display: flex;
-  flex-direction: column;
-  flex-grow: 2;
-  margin: 1.8rem;
-  border-top: 1px solid #e3a03b;
-  padding: 20px;
-} */
+  flex-direction: row;
+  /* border: 1px solid gray; */
+  width: 100%;
+}
 
 .aboutSkills {
-  display: grid;
-  grid-template-columns: 1fr 12fr;
-  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
-/* .skillsHeader {
-  border: 1px solid gray;
-} */
-
-.skillsContent {
-  border-top: 1px solid #e3a03b;
-  margin-top: 2rem;
-  /* padding-top: 1.5rem; */
+.svgLine {
+  margin: auto;
+  flex-grow: 30;
 }
 
 .skillsText {
@@ -88,10 +63,12 @@
   flex-wrap: wrap;
   padding-left: 1.5rem;
   padding-bottom: 1.5rem;
+  margin-left: 4rem;
 }
 
 .goldLine {
-  fill: #e3a03b;
+  stroke: #e3a03b;
+  stroke-width: 3;
 }
 
 .skill {
@@ -99,25 +76,82 @@
   color: lightgray;
   font-size: 1.1rem;
   /* border: 1px solid gray; */
-  margin-top: 1.5rem;
   margin-right: 1.5rem;
   padding: 0.5rem;
 }
 
+.resumeDiv {
+  background-color: #161e2b;
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 2rem;
+}
+
+.resumeDiv:hover {
+  box-shadow: 0px 1px 10px #e3a03b;
+  scale: 1.1;
+}
+
+.resumeH1:hover {
+  text-decoration: underline;
+}
+
+.resumeH1 {
+  font-family: "espiritu", sans-serif;
+  text-transform: uppercase;
+  /* font-weight: 600; */
+  font-style: normal;
+  color: #5886a1;
+  font-size: 1.6rem;
+}
+
 @media screen and (min-width: 320px) and (max-width: 425px) {
+  .aboutContainer {
+    margin: 1.5rem;
+  }
+
   .aboutSkills {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
   }
 
+  .aboutHeader {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .svgLine {
+    width: 100%;
+    padding: 0rem 0.5rem;
+  }
+
+  .aboutContent {
+    width: 100%;
+    margin: 1rem;
+  }
+
+  .aboutText {
+    margin: 0;
+    padding: 10px 30px 10px 0px;
+  }
+
+  .skillsHeader {
+    display: flex;
+    flex-direction: column;
+  }
+
   .skillsContent {
-    margin-top: 1rem;
+    margin: 0rem 1rem;
   }
 
   .skillsText {
-    padding-left: 1rem;
-    padding-top: 1rem;
+    padding: 0rem;
+    margin: 0;
   }
 
   .skill {

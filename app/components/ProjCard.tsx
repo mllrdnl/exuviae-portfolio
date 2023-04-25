@@ -20,29 +20,35 @@ type Props = {
 function ProjCard({ title, img, desc, tags, tech, alt, slug }: Props) {
   return (
     <div className={styles.cardContainer}>
-      <div className={styles.cardTitle}>
-        <Link href={`/projects/${slug}`}>
-          <h4>{title}</h4>
-        </Link>
-      </div>
-      <div className={styles.cardImg}>
-        <Image src={img} alt={alt} fill className={styles.img} />
-      </div>
-      <div className={styles.cardDesc}>{desc}</div>
-      <div className={styles.cardTags}>
-        <ul className={styles.techlist}>
-          {tech.map((each, i) => (
-            <li className={styles.techli} key={i}>
-              <Image
-                src={`/images${each.logo_url}`}
-                alt="alt text"
-                fill
-                className={styles.techLogoImg}
-              />
-            </li>
-          ))}
-        </ul>
-      </div>
+      {/* <div className={styles.cardDesc}>
+        {desc}
+        <div>Details</div>
+      </div> */}
+      <Link href={`/projects/${slug}`} className={styles.projLink}>
+        <div className={styles.card}>
+          <div className={styles.cardTitle}>
+            <h4>{title}</h4>
+          </div>
+          <div className={styles.imgContainer}>
+            <Image src={img} alt={alt} fill className={styles.img} />
+          </div>
+
+          <div className={styles.cardTags}>
+            <ul className={styles.techlist}>
+              {tech.map((each, i) => (
+                <li className={styles.techli} key={i}>
+                  <Image
+                    src={`/images${each.logo_url}`}
+                    alt="alt text"
+                    fill
+                    className={styles.techLogoImg}
+                  />
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </Link>
     </div>
   );
 }
