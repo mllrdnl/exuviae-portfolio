@@ -1,0 +1,81 @@
+.contactBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contactHeader {
+  margin: 2rem auto;
+  font-family: "espiritu-script", sans-serif;
+  color: #97a77d;
+  font-size: 4rem;
+}
+
+.links {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.email {
+  border: none;
+  border-radius: 10px;
+  font-family: "espiritu", sans-serif;
+  text-transform: uppercase;
+  color: #5886a1;
+  background-color: #000c20;
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0px 1px 10px rgb(93, 93, 93);
+}
+
+.email:hover {
+  scale: 1.1;
+  box-shadow: 0px 1px 10px #97a77d;
+}
+
+.socials {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.findme {
+  margin: auto;
+  margin-top: 2rem;
+  font-family: "espiritu-script", sans-serif;
+  color: #5886a1;
+  font-size: 2rem;
+}
+
+.sociallinks {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.twitter {
+  margin: 0rem 2rem;
+}
+
+.git,
+.twitter,
+.linked {
+  color: #5886a1;
+  cursor: pointer;
+}
+
+/* .contactForm {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+} */

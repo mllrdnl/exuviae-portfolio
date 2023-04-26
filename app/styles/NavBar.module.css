@@ -1,9 +1,109 @@
 .navBarContainer {
   display: flex;
   flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
   background-color: #000c20;
+  align-content: center;
 }
 
 .navLogo {
   padding: 5px 20px;
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: row;
+  margin: auto 20px;
+  align-items: center;
+}
+
+.nonActive {
+  color: #212d40;
+  font-size: 0.8rem;
+  margin: auto 1rem;
+}
+
+.nonActive:hover {
+  font-family: "espiritu-script", sans-serif;
+  color: #5886a1;
+  font-size: 1.1rem;
+}
+
+.active {
+  font-family: "espiritu-script", sans-serif;
+  color: #97a77d;
+  font-size: 1.5rem;
+  margin: 0rem 1rem;
+  /* text-decoration: underline; */
+}
+
+.rightNav {
+  display: flex;
+  flex-direction: column;
+  background-color: #000c20;
+  display: none;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: auto;
+}
+
+.hamburger {
+  margin: auto 2rem;
+  background-color: #212d40;
+  color: #5886a1;
+  border: none;
+  border-radius: 5px;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.rightNavBodyOpen {
+  display: flex;
+  flex-direction: column;
+  background-color: #000c20;
+  align-items: flex-end;
+  padding-right: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  position: absolute;
+  right: 0;
+  top: 6rem;
+  width: 15rem;
+  z-index: 999;
+}
+
+.rightNavBodyClosed {
+  display: none;
+}
+
+.rnonActive {
+  color: #5886a1;
+  font-size: 0.8rem;
+  margin: auto 1rem;
+}
+
+.ractive {
+  font-family: "espiritu-script", sans-serif;
+  color: #97a77d;
+  font-size: 1.5rem;
+  margin: 0rem 1rem;
+  /* text-decoration: underline; */
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .navLinks {
+    display: none;
+  }
+
+  .rightNav {
+    display: flex;
+    flex-direction: column;
+    background-color: #000c20;
+  }
 }

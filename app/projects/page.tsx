@@ -8,7 +8,7 @@ const projects = () => {
     <div>
       <NavBar />
       <div className={styles.projBody}>
-        <div className={styles.categories}>
+        {/* <div className={styles.categories}>
           <div className={styles.projCat}>
             <h1 className={styles.projCatTop}>All</h1>
             <h2 className={styles.projCatBottom}>Projects</h2>
@@ -29,7 +29,7 @@ const projects = () => {
             <h2 className={styles.projCatTop}>Original</h2>
             <h1 className={styles.projCatBottom}>Art</h1>
           </div>
-        </div>
+        </div> */}
         <div className={styles.projCardContainer}>
           {projData.map((proj) => (
             <div key={proj.id} className={styles.projectCard}>

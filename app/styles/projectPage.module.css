@@ -58,9 +58,9 @@
   padding: 2rem;
   margin: 0rem 2rem;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .projectCard {
-  margin-bottom: 2rem;
+  margin: 2rem;
 }
