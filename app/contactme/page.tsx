@@ -11,7 +11,9 @@ const ContactMe = () => {
           <p>Let's create something together!</p>
         </div>
         <div className={styles.links}>
-          <div className={styles.email}>Send me an email</div>
+          <div className={styles.email}>
+            <a href="mailto:mal@exuviae.me">Send me an email</a>
+          </div>
           <div className={styles.socials}>
             <p className={styles.findme}>...or find me @</p>
             <div className={styles.sociallinks}>

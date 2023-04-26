@@ -11,7 +11,7 @@ const NavBar = () => {
         <h1>Projects</h1>
       </Link>
 
-      <Link href="/contact" className={styles.navLink}>
+      <Link href="/contactme" className={styles.navLink}>
         <h1>Contact</h1>
       </Link>
     </div>

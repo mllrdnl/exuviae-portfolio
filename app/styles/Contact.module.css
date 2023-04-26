@@ -74,8 +74,46 @@
   cursor: pointer;
 }
 
+.git:hover {
+  scale: 1.1;
+}
+
+.twitter:hover {
+  scale: 1.1;
+}
+.linked:hover {
+  scale: 1.1;
+}
 /* .contactForm {
   margin: auto;
   display: flex;
   flex-direction: column;
 } */
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .contactHeader {
+    font-size: 3.5rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  .contactHeader p {
+    margin: auto;
+    text-align: center;
+  }
+
+  .email {
+    width: 90%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin: 1rem auto;
+  }
+
+  .links {
+    width: 100%;
+  }
+}

@@ -99,9 +99,9 @@ const NavBar = () => {
             <h1>projects</h1>
           </Link>
           <Link
-            href="/contact"
+            href="/contactme"
             className={
-              pathname === "/contact" ? styles.ractive : styles.rnonActive
+              pathname === "/contactme" ? styles.ractive : styles.rnonActive
             }
           >
             <h1>contact</h1>
