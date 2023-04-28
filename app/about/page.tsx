@@ -27,12 +27,12 @@ const about = () => {
             <p className={styles.aboutText}>
               {" "}
               I am a passionate, solution-oriented full stack developer with a
-              background in sales and account management. I'm comfortable
+              background in sales and account management. I&apos;m comfortable
               working with diverse teams and pride myself on my mid-western work
               ethic. With experience in JavaScript, ReactJS, Bootstrap, NodeJS,
-              SQL, Python, FlaskSQL, REST APIs, and Git, I'm capable of building
-              both cohesive, interactive layouts and robust APIs to create an
-              optimized and smooth experience for the end user.
+              SQL, Python, FlaskSQL, REST APIs, and Git, I&apos;m capable of
+              building both cohesive, interactive layouts and robust APIs to
+              create an optimized and smooth experience for the end user.
             </p>
 
             <p className={styles.aboutText}>
@@ -45,17 +45,17 @@ const about = () => {
             </p>
 
             <p className={styles.aboutText}>
-              Amongst my list of favorite insects lies the beloved cicada. I'm
-              forever intrigued by their louder-than-life 'song', their
-              incredible lifecycle, and the alien-like 'shell' (exuviae) that
-              they leave behind after emerging from the earth and transitioning
-              to their next chapter of life.
+              Amongst my list of favorite insects lies the beloved cicada.
+              I&apos;m forever intrigued by their louder-than-life
+              &apos;song&apos;, their incredible lifecycle, and the alien-like
+              &apos;shell&apos; (exuviae) that they leave behind after emerging
+              from the earth and transitioning to their next chapter of life.
             </p>
             <p className={styles.aboutText}>
-              Here you'll find a curation of projects that I've created, learned
-              from, and grew from. Each one similar to an exuviae, displaying my
-              capabilities and leading you to wonder what the next chapter looks
-              like.
+              Here you&apos;ll find a curation of projects that I&apos;ve
+              created, learned from, and grew from. Each one similar to an
+              exuviae, displaying my capabilities and leading you to wonder what
+              the next chapter looks like.
             </p>
           </div>
         </div>

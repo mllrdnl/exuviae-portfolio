@@ -41,7 +41,7 @@ const Contact = () => {
       <NavBar />
       <div className={styles.contactBody}>
         <div className={styles.contactHeader}>
-          <p>Let's create something together!</p>
+          <p>Let&apos;s create something together!</p>
         </div>
 
         <form className={styles.contactForm} onSubmit={handleSubmit}>

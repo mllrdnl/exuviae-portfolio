@@ -20,8 +20,8 @@ export default function Project({ params: { slug } }: Props) {
     <div className={styles.projectPageContainer}>
       <NavBar />
       <div className={styles.projectBody}>
-        {selectedProject.map((projDetails) => (
-          <div className={styles.detailsBody}>
+        {selectedProject.map((projDetails, i) => (
+          <div className={styles.detailsBody} key={i}>
             <div className={styles.projTitle}>
               <div className={styles.titles}>
                 <h1>Project:</h1>
