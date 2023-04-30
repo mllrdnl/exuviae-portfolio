@@ -79,21 +79,27 @@ const about = () => {
           <div className={styles.skillsContent}>
             <div className={styles.skillsText}>
               <h4 className={styles.skill}>HTML/CSS</h4>
-              <h4 className={styles.skill}>JAVASCRIPT</h4>
-              <h4 className={styles.skill}>REACT.JS</h4>
-              <h4 className={styles.skill}>PYTHON</h4>
+              <h4 className={styles.skill}>JavaScript</h4>
+              <h4 className={styles.skill}>React.JS</h4>
+              <h4 className={styles.skill}>Python</h4>
               <h4 className={styles.skill}>SQL</h4>
               <h4 className={styles.skill}>Bootstrap</h4>
               <h4 className={styles.skill}>FlaskSQL</h4>
               <h4 className={styles.skill}>REST APIS</h4>
-              <h4 className={styles.skill}>GIT</h4>
-              <h4 className={styles.skill}>MONGODB</h4>
+              <h4 className={styles.skill}>GIT/GitHub</h4>
+              <h4 className={styles.skill}>MongoDB</h4>
               <h4 className={styles.skill}>REDUX</h4>
               <h4 className={styles.skill}>AXIOS</h4>
               <h4 className={styles.skill}>WordPress</h4>
               <h4 className={styles.skill}>NextJS 13</h4>
               <h4 className={styles.skill}>MERN</h4>
               <h4 className={styles.skill}>TypeScript</h4>
+              <h4 className={styles.skill}>Docker</h4>
+              <h4 className={styles.skill}>Sanity</h4>
+              <h4 className={styles.skill}>Prisma</h4>
+              <h4 className={styles.skill}>Adobe Illustrator</h4>
+              <h4 className={styles.skill}>Adobe Fresco</h4>
+              <h4 className={styles.skill}>Agile P.M.</h4>
             </div>
           </div>
         </div>
